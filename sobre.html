@@ -28,6 +28,23 @@
             </div>
         </div>
     </div>
-
+<!-- Banner de Cookies -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: white; padding: 10px; text-align: center; z-index: 9999;">
+    Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa 
+    <a href="politica-privacidade.html" style="color: #4fc3f7;">Política de Privacidade</a>.
+    <button onclick="acceptCookies()" style="margin-left: 10px;">Aceitar</button>
+  </div>
+  
+  <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+  
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
+  
 </body>
 </html>

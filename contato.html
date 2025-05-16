@@ -29,8 +29,8 @@
 
         <!-- Informações de Contato -->
         <div class="informacoes-contato">
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5599999999999" target="_blank">(99) 99999-9999</a></p>
-            <p><strong>Bem-vindo à Estação de Bebidas e Sabores:</strong> <a href="mailto:contato@nossorestaurante.com">contato@nossorestaurante.com</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5599999999999" target="_blank">(15) 99821-2373</a></p>
+            <p><strong>Bem-vindo à Estação de Bebidas e Sabores:</strong> <a href="mailto:contato@nossorestaurante.com">contato@estacoes.com</a></p>
             <p><strong>Sugestões:</strong> Envie suas ideias e melhorias pelo formulário abaixo.</p>
             <p><strong>Reclamações:</strong> Se algo não estiver certo, queremos saber para melhorar. Use o formulário abaixo ou envie por e-mail.</p>
         </div>
@@ -71,6 +71,24 @@
             return false; // Impede o envio real (para não recarregar a página)
         }
     </script>
+    <!-- Banner de Cookies -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: white; padding: 10px; text-align: center; z-index: 9999;">
+    Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa 
+    <a href="politica-privacidade.html" style="color: #4fc3f7;">Política de Privacidade</a>.
+    <button onclick="acceptCookies()" style="margin-left: 10px;">Aceitar</button>
+  </div>
+  
+  <script>
+    function acceptCookies() {
+      document.getElementById('cookie-banner').style.display = 'none';
+      localStorage.setItem('cookiesAccepted', 'true');
+    }
+  
+    if (localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'none';
+    }
+  </script>
+  
 
 </body>
 </html>

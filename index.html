@@ -141,6 +141,24 @@
 
     <!-- Link para o Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Banner de Cookies -->
+<div id="cookie-banner">
+  Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa 
+  <a href="politica-privacidade.html">Política de Privacidade</a>.
+  <button onclick="acceptCookies()">Aceitar</button>
+</div>
 
+<script>
+  function acceptCookies() {
+    document.getElementById('cookie-banner').style.display = 'none';
+    localStorage.setItem('cookiesAccepted', 'true');
+  }
+
+  if (localStorage.getItem('cookiesAccepted')) {
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+</script>
+
+  
 </body>
 </html>

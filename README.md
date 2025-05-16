@@ -21,6 +21,35 @@ Este projeto é um site institucional para o restaurante fictício "Estação de
 - **Pedidos** (`pedidos.html`): Explicação de como fazer pedidos online.
 - **Sobre** (`sobre.html`): História e proposta do restaurante.
 - **Contato** (`contato.html`): Formulário e informações de contato.
+- **Política de Privacidade** (`politica-privacidade.html`): Informações sobre tratamento de dados pessoais conforme a LGPD.
+
+## 🔐 Conformidade com a LGPD
+
+Dando continuidade ao projeto, implementamos os seguintes requisitos de privacidade e proteção de dados:
+
+- **Tipos de dados pessoais coletados**:
+  - Nome, telefone, e-mail, mensagem/pedido (via formulários).
+
+- **Bases legais aplicáveis**:
+  - Consentimento do titular;
+  - Execução de contrato ou procedimentos preliminares;
+  - Legítimo interesse (sem prejuízo aos direitos do titular).
+
+- **Principais riscos e medidas de mitigação**:
+  - Riscos: vazamento, acesso indevido, uso indevido.
+  - Medidas: minimização de dados, uso de HTTPS, comunicação segura por e-mail.
+
+- **Direitos dos titulares**:
+  - Acesso, retificação, exclusão e revogação do consentimento;
+  - Canal de contato: **contato@seudominio.com**.
+
+- **Arquitetura segura e transparente**:
+  - Página dedicada de Política de Privacidade;
+  - Design simples, informativo e acessível ao usuário.
+
+- **Mecanismo de aceite**:
+  - Implementação de banner de cookies visível ao usuário ao acessar o site;
+  - Consentimento explícito sobre uso de dados e política de privacidade.
 
 ## 📂 Estrutura de Diretórios
 
@@ -33,8 +62,10 @@ estacao-bebidas-sabores/
 ├── pedidos.html           # Informações de pedidos
 ├── sobre.html             # Sobre o restaurante
 ├── contato.html           # Formulário de contato
+├── politica-privacidade.html # Política de privacidade
 │
 ├── style.css              # Estilo geral
+├── politica.css           # Estilo da política de privacidade
 ├── menu.css, etc.         # Estilos específicos de cada página
 │
 └── imagens/               # Imagens utilizadas
@@ -42,4 +73,4 @@ estacao-bebidas-sabores/
     ├── imagem2.jpg
     └── imagem3.jpg
 
-última edição 07/05/2025
+última edição 15/05/2025
