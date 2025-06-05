@@ -1,3 +1,10 @@
+## 📄 Documentação
+
+A documentação completa do projeto, contendo os requisitos funcionais, não funcionais, design e gestão, está disponível em PDF:
+
+👉 [Especificação de Requisitos - Estação de Bebidas e Sabores](docs/WEBSITE%20-%20ESTAÇÃO%20DE%20BEBIDAS%20E%20SABORES.pdf)
+
+
 # Estação de Bebidas e Sabores
 
 Este projeto é um site institucional para o restaurante fictício "Estação de Bebidas e Sabores". O objetivo é apresentar, de forma clara e acessível, informações como o menu, promoções, pedidos e formas de contato com o restaurante.
