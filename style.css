@@ -273,3 +273,6 @@ footer p {
   background-color: #1e88e5;
   color: #fff;
 }
+footer p a{
+    color: white;
+}
